@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+
+var positiontop = $(document).scrollTop();
+console.log(positiontop);
+if((positiontop > 10) && (positiontop < 213)){
+    $('id_class name').addClass('which animation u wanna apply');
+}
+
+});
+
+
+        });
+       
+    </script>
+    
+</body>
+</html>
